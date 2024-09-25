@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #d5a6f4, #ab47bc, #1de9b6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .card-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 550px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: 3px solid white;
+    transition: transform 0.3s ease;
+    box-shadow: none;
+    position: relative; /* For absolute positioning of the content */
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    background: linear-gradient(135deg, #954dc9, #b33bc9, #2be4b6);
+    
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    padding: 10px 0;
+  }
+  
+  .free-trial-title {
+    /* Style specific to "FREE TRIAL" */
+    font-size: 2.5rem;  /* Large font size for emphasis */
+    font-weight: bold;  /* Bold text */
+    color: #ffffff;     /* White text color for contrast */
+    background: linear-gradient(135deg, #1ae5b2, #6a0dad, #b66ee6);  /* Gradient background */
+  
+    -webkit-text-fill-color: transparent;  /* Makes the text color transparent so the gradient shows */
+    padding: 10px;  /* Padding around the text */
+    border-radius: 5px;  /* Rounded corners */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);  /* Subtle shadow to make the text pop */
+  }
+  
+  .premium-title {
+    /* Style specific to "PREMIUM" */
+    font-size: 2.5rem;  /* Large font size for emphasis */
+    font-weight: bold;  /* Bold text */
+    color: #ffffff;     /* White text color for contrast */
+    background: linear-gradient(135deg, #ab47bc, #00e8ae);  /* Gradient background */
+
+    -webkit-text-fill-color: transparent;  /* Makes the text color transparent so the gradient shows */
+    padding: 10px;  /* Padding around the text */
+    border-radius: 5px;  /* Rounded corners */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);  /* Subtle shadow to make the text pop */
+  }
+  
+  .card-description {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333333; /* Dark gray for contrast */
+    margin: 10px 0;
+  }
+  
+  .card-paragraph {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #555555; /* Slightly lighter gray for readability */
+    margin: 0;
+    transition: color 0.3s ease;
+    text-align: center; /* Center the text inside the paragraph */
+  }
+  
+  .card-paragraph:hover {
+    color: #1de9b6; /* Change color on hover */
+  }
+  .card-image{
+    width: 70%; 
+  height: auto; 
+  margin-bottom: 20px; 
+  border-radius: 10px; 
+  }
